@@ -1,0 +1,39 @@
+body{
+    background-color: rgb(73, 77, 122);
+}
+
+#image{
+    margin: 10px;
+    background-color: black;
+    border-radius: 5px;
+}
+
+h1{
+   
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: red;
+}
+
+#list{
+    margin: 10px;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: antiquewhite;
+    
+}
+footer{
+    margin: 10px;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: antiquewhite;
+}
+#welcome h1{
+    float: right;
+    background-color: aqua;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 5px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(255, 94, 0);
+
+}
