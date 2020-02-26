@@ -1,5 +1,6 @@
 body{
-    background-color: rgb(73, 77, 122);
+    background-image: image();
+    background-color:goldenrod;
 }
 
 #image{
