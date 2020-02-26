@@ -1,6 +1,6 @@
 body{
-    background-image: image();
-    background-color:rgba(236, 177, 27, 0.13);
+    background-image: url("coffee.jpg");
+
 }
 
 #image{
