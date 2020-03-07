@@ -6,7 +6,7 @@ img{
 
 
 body{
-    background-color: rgb(27, 223, 174);
+    background-color: gray;
     font-size: 120%;
 }
 #btn{
@@ -17,7 +17,7 @@ body{
     background-color: rgb(57, 116, 226);
     padding: 20px;
    margin: auto;
-   width: 500px;
+   width: 800px;
    height: 600px;
    border-radius: 10px;
    
