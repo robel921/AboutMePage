@@ -351,6 +351,47 @@
             tag body's JSP content that gets passed to the client, not the JSP code itself. Therefore,
             the doTag method has no way of accessing the tag body output. All it can do is pass it along.<br></p>
     </div>
+    <div>
+        <h3>JavaScript Exercises</h3>
+        JavaScript Exercises
+1.What is the difference between the following 2 statements? <br>
+a) setTimeout(booyah, 2000);<br>
+ans:- it calls the function after the time goes off.<br>
+b)  setTimeout(booyah(), 2000);<br>
+ans:- it calls the function immediately, rather than waiting the 2000ms!<br>
+2. What do the following 2 alerts display (answer without running the code)? <br>
+var myfunc = function(a, x)<br>
+ {      return a * x; <br>
+};<br>
+ var x = myfunc(2, 3); <br>
+var y = myfunc; <br>
+alert(x);<br>
+ alert(y(2,3));<br>
+ans:- 6<br>
+         2  3<br>
+3. Write functions booyah1 and booyah2 so that in both cases below, an alert box comes up after 2 seconds that says “BOOYAH!”<br>
+a) setTimeout(booyah1, 2000);<br>
+ans:- function delayMsg() { <br>
+setTimeout(booyah1, 2000);<br>
+ document.getElementById("output").innerHTML = " Coming ...";<br>
+ } <br>
+function booyah1() { <br>
+ document.getElementById("output").innerHTML = "BOOYAH!"; <br>
+}<br>
+b)  setTimeout(booyah2(), 2000);<br>
+ans:- function delayMsg() { <br>
+setTimeout(booyah2(), 2000);<br>
+ document.getElementById("output").innerHTML = "coming ...";<br>
+ } <br>
+function booyah2() { <br>
+ document.getElementById("output").innerHTML = "BOOYAH!"; <br>
+}<br>
+4. What is "Unobtrusive Javascript"? What is the practical application of Unobtrusive Javascript (and the reasons for using it)?<br>
+Ans:-<br>
+Unobtrusive JavaScript is the practice of separating the JavaScript, CSS, and HTML elements in your web applications. By keeping your applications<br> organized in this way, it's easier to maintain them and to ensure that your applications behave consistently across various platforms and web browsers. <br>
+Unobtrusive JavaScript is a best practice methodology for attaching JavaScript to the front-end of a website. It’s an ideal to strive toward and <br>something we should bear in mind whenever we’re adding JavaScript to a site.<br>
+
+    </div>
 
 </body>
 
