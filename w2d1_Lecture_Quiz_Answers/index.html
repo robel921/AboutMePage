@@ -867,6 +867,155 @@ Answer:
         error caught<br>
 </p>
     </div>
+    <div>
+        <h2>Javascript Exercises</h2>
+
+<p>
+    Question 1. What is the difference between the following 2 statements?
+    setTimeout(booyah, 2000);
+    setTimeout(booyah(), 2000);
+</p>
+
+<p>
+    Answer: The first statement will wait 2 seconds to display value. The second statement has parenthesises with the method which will go to the function directly and
+    the function immediately displays the value with out waiting 2 seconds.
+</p>
+<hr>
+
+<p>
+    Question 2. What do the following 2 alerts display (answer without running the code)?<br>
+    var myfunc = function(a, x) {<br>
+    return a * x;<br>
+    };<br>
+    var x = myfunc(2, 3);<br>
+    var y = myfunc;<br>
+    alert(x);<br>
+    alert(y(2,3));
+</p>
+<p>
+    Answer: Both will alert and display 6.
+</p>
+<hr>
+<p>
+    Question 3. Write functions booyah1 and booyah2 so that in both cases below, an alert box comes up after 2 seconds
+    that says "BOOYAH!"<br>
+    setTimeout(booyah1, 2000);<br>
+    setTimeout(booyah2(), 2000);
+</p>
+<p>
+    Answer:
+    var booyah1 = function() {<br>
+    alert('BOOYAH!');<br>
+    }<br>
+    function booyah2() {<br>
+    alert('BOOYAH!');<br>
+    }
+</p>
+<hr>
+<p>
+    Question 4. What is "Unobtrusive Javascript"? What is the practical application of Unobtrusive Javascript (and the
+    reasons
+    for using it)?
+</p>
+
+<p>
+    Answer:Unobtrusive Java script is a methodology for attaching JavaScript to the front-end of a website.
+   it is used to separate the content and functionality. Means the separation of JS file and
+    HTML file. Separation of functionality (the "behavior layer") from a Web page's structure/content and presentation.
+</p>
+    </div>
+    <h3>jQuery 1</h3>
+    <div>
+        <h1>jQuery Quiz I</h1>
+          <hr>           
+<ol>
+        <li><In jQuery terminology, What is the difference between the "jQuery function" and the "jQuery abject"?<br>
+       
+                jQuery function:- is the value of jQuery or of $ And it's the function that create the return jQuery Objects.<br>
+                jQuery Object:- is the object returned by the jQuery function and represents set of document elements.<br>
+        </li>
+                <br>
+    
+<li>
+        Write jQuery code to find all h1 elements that are children of a div element and make their background color red.<br>
+        Sample HTML:<br>
+        <br>
+        &lt;body&gt;<br>
+        &lt;h1&gt;abc&lt;/h1&gt;&lt;br&gt;&lt;div&gt;<br> 
+            &lt;h1&gt;div-1&lt;/h1&gt;   &lt;h1&gt;div-2&lt;/h1&gt;<br>  
+            &lt;/div&gt;<br>   
+            &lt;h1&gt;xyz&lt;/h1&gt;<br>
+            &lt;/body&gt;<br>
+        <br>
+        &lt;script&gt;<br>
+                    $(div h1).css({"background-color":"red"});<br>
+                    &lt;/script&gt;<br>
+                </li>
+                <br>
+       
+<li>
+       Use a jQuery method to insert the text "YES!" at the end of the &lt;p&gt; element.<br> 
+            <br>
+            &lt;!DOCTYPE html&gt; <html> <head> <br>
+                &lt;script&gt; <br>
+            <br>
+            &lt;!â€”INSERT YOUR JQUERY CODE HERE  - - &gt; <br>
+        <br>
+        &lt;/script&gt; <br>
+        &lt;/head&gt; <br>
+        &lt;body&gt;<br> 
+            <br>      
+            &lt;p&gt;Is jQuery FUN or what? </p> <br>
+            &lt;/body&gt; &lt;/html&gt;  <br>   
+        <br>
+        &lt;script&gt;<br>
+                    $(p).append("YES!");<br>
+                    &lt;/script&gt; 
+                </li>
+                    <br>           
+       
+
+
+                </ol>
+    </div>
+    <div>
+        <h2>jQuery Quiz II</h2>
+        <hr>
+    <ol>
+    <li>
+         All three of them are equivalent, because all of them tells that the css operation is applied for every element of the
+        list.
+    </li>
+    <br>
+        <li>
+        
+        &lt;div&gt;no ul here &lt;/div&gt;<br>
+        &lt;div&gt;<br>
+            This does contain a ul.<br>
+            &lt;ul&gt;<br>
+            &lt;li&gt;the first item&lt;/li&gt;<br>
+            &lt;li&gt;the second item&lt;/li&gt;<br>
+            &lt;/ul&gt;<br>
+            &lt;/div&gt;<br>
+            &lt;script&gt;<br>
+             $(document).ready(function(){<br>
+                    $('div ul').css("color","blue");<br>
+                });<br>
+                &lt;/script&gt;<br>
+            </li>
+            <br>
+            <li>
+                    &lt;script&gt;<br>
+                            $(document).ready(function () {<br>
+                                $("body").append("&lt;h1&gt;jQuery Core&lt;/h1&gt;");<br>
+                            });<br>
+                    
+                    
+                            &lt;/script&gt;
+            </li>
+    
+            </ol>
+    </div>
 
 </body>
 
